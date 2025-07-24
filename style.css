@@ -249,7 +249,7 @@ nav img:hover {
     font-size: 16px;
     font-weight: 400;
   }
-  .section2 button:hover{
+  .section2 button:hover {
     cursor: pointer;
   }
 }
@@ -280,7 +280,7 @@ nav img:hover {
   /* width: 100%; */
 }
 .section3 ul li {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 22px;
   color: gray;
   margin-top: 20px;
@@ -325,5 +325,8 @@ nav img:hover {
     width: 90%;
     flex-wrap: wrap;
     height: auto;
+  }
+  .imgs {
+    display: none;
   }
 }
