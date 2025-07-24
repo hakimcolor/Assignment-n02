@@ -63,8 +63,13 @@ nav img:hover {
   }
   nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     margin: 13px 16px 0 6px;
+  }
+  .cons {
+    margin-top: 20px;
   }
 }
 
@@ -111,7 +116,7 @@ nav img:hover {
   .banner-title {
     position: static;
     padding: 16px;
-    width: 341px;
+    width: 100%;
     margin-top: 28px;
   }
 
@@ -124,7 +129,111 @@ nav img:hover {
   }
   .banner p {
     margin-top: 12px;
-    font-size: 14px;
-    padding-right: 5px;
+    font-size: 22px;
+    padding-right: 40px;
+    width: 100%;
+  }
+}
+
+/* section1 styline */
+.section1 {
+  margin-top: 96px;
+}
+.section1 div h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+}
+.section1 div h1 span {
+  color: #e95a08;
+}
+.section1 p {
+  margin-top: 12px;
+  color: gray;
+  font-weight: 400;
+  font-size: 22px;
+  width: 840px;
+  padding: 0px 126px 0px 126px;
+}
+.section1 .div1 {
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 570px) {
+  .section1 p {
+    width: auto;
+    padding: 0px 10px;
+  }
+  .section1 div h1{
+    font-size: 24px;
+  }
+}
+/* section2 styling */
+.section2 {
+  /* width: 100%; */
+  max-width: 270px;
+  /* margin: auto; */
+}
+
+.section2 h3 {
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section2 h1 {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.section2 button {
+  margin-top: 12px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 19px 0px;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  display: block;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 21px;
+  padding: 20px;
+}
+
+.grid img {
+
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/*  Responsive Media Query */
+@media screen and (max-width: 570px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .section2 {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .grid img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section2 button {
+    width: 100%;
   }
 }
