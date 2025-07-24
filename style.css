@@ -132,6 +132,8 @@ nav img:hover {
     font-size: 22px;
     padding-right: 40px;
     width: 100%;
+    font-weight: 400;
+    font-size: 14px;
   }
 }
 
@@ -163,6 +165,8 @@ nav img:hover {
   .section1 p {
     width: auto;
     padding: 0px 10px;
+    font-weight: 400px;
+    font-size: 14px;
   }
   .section1 div h1 {
     font-size: 24px;
@@ -221,7 +225,14 @@ nav img:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
-
+  .section2 h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .section2 h3 {
+    font-weight: 400;
+    font-size: 16px;
+  }
   .section2 {
     margin-top: 28px;
     max-width: 100%;
@@ -235,6 +246,11 @@ nav img:hover {
 
   .section2 button {
     width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .section2 button:hover{
+    cursor: pointer;
   }
 }
 /* section3 styling */
@@ -281,7 +297,7 @@ nav img:hover {
 @media screen and (max-width: 768px) {
   .section3 {
     /* border: 4px solid red; */
-margin-top: 41px;
+    margin-top: 41px;
     width: 100%;
     height: 100%;
     position: static;
@@ -295,8 +311,19 @@ margin-top: 41px;
   }
   .section3 ul li {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 14px;
     color: gray;
     margin-top: 20px;
+  }
+  .section3 h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .section3-div2 {
+    margin-left: 12px;
+    margin-top: 38px;
+    width: 90%;
+    flex-wrap: wrap;
+    height: auto;
   }
 }
